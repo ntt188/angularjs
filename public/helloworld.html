@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>Simple application</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="helloworld.js"></script>
+</head>
+<body>
+    <div ng-controller="MyController">
+        <input ng-model="name" type="text" placeholder="Your name">
+        <h1>Hello {{ name }}</h1>
+    </div>
+</body>
+</html>
